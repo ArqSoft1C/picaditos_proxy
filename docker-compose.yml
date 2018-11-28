@@ -1,6 +1,0 @@
-runapp-proxy:
-  image: smarquezo/picaditos_proxy
-  depends_on:
-    - picaditos-api
-  ports:
-    - 80:80
