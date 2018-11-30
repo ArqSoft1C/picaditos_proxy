@@ -3,4 +3,4 @@ picaditos_proxy:
   depends_on:
     - picaditos-api
   ports:
-    - "80:80"
+    - 80:80
