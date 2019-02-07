@@ -1,8 +1,8 @@
 version: '2.1'
 services:
-picaditos_proxy:
-      build: .
-      depends_on:
-        - picaditos-api
-      ports:
-        - 80:80
+  picaditos_proxy:
+    build: .
+    depends_on:
+      - picaditos-api
+    ports:
+      - 80:80
