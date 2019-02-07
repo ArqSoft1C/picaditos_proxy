@@ -1,7 +1,7 @@
 version: '2.1'
-  services:
-    picaditos_proxy:
-      image: smarquezo/picaditos_proxy
+services:
+picaditos_proxy:
+      build: .
       depends_on:
         - picaditos-api
       ports:
